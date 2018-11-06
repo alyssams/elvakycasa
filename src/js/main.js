@@ -148,7 +148,10 @@
 
 	    introTl
 	    	.to($('#intro header, .scroll-hint'), 0.2, {autoAlpha: 0, ease:Power1.easeNone})
-	    	.to($('#intro .videoWrapper'), 1.4, {y: '20%', ease:Power1.easeOut}, '-=0.2')
+	    	// .to($('#intro .videoWrapper'), 0.2, {autoAlpha: 0, ease:Power1.easeNone})
+	    	// .to($('#intro .overlay'), 0.2, {autoAlpha: 0, ease:Power1.easeNone})
+	    	.to($('#intro .videoWrapper'), 0.7, {autoAlpha: 1, ease:Power1.easeOut}, 0)	    	
+	    	.to($('#intro .overlay'), 0.7, {autoAlpha: 0, ease:Power1.easeOut, opacity: 0}, 0)
 	    	.to($('#intro'), 0.7, {autoAlpha: 1, ease:Power1.easeOut, opacity: .5}, 0);
 
 		var introScene = new ScrollMagic.Scene({
