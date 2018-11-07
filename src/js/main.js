@@ -170,7 +170,7 @@
 	    pinScene01Tl
 	    	.fromTo($('#slide02 h1'), 0.2, {y: '+=05'}, {y: 0, autoAlpha: 1, ease:Power1.easeOut}, '+=0.2')
 	    	.to($('#slide02 section'), 0.2, {autoAlpha: 0, ease:Power1.easeNone}, 1.5)
-	    	.to($('#slide02 .bcg'), 0.2, {autoAlpha: 1, ease:Power1.easeNone}, 1.5)
+	    	.to($('#slide02 .bcg'), 0.7, {autoAlpha: 1, ease:Power1.easeOut}, 0)	 
 	    	.set($('#slide02 .bcg'), {css:{backgroundImage:'url(../img/bar.jpg)'}})
 	    	.set($('#slide02 h3'), {text: 'Let\'s do the'})
 	    	.set($('#slide02 h1'), {text: 'Two Step'})
@@ -181,7 +181,7 @@
 
 	    	.to($('#slide02 h1'), 0.2, {autoAlpha: 0, ease:Power1.easeNone}, 1.5)
 	    	.to($('#slide02 section'), 0.2, {autoAlpha: 0, ease:Power1.easeNone}, 1.5)
-	    	.to($('#slide02 .bcg'), 0.2, {autoAlpha: 1, ease:Power1.easeNone}, 1.5)
+	    	.to($('#slide02 .bcg'), 0.7, {autoAlpha: 1, ease:Power1.easeOut}, 0)
 	    	.set($('#slide02 .bcg'), {css:{backgroundImage:'url(../img/beach.jpg)'}})
 	    	.set($('#slide02 h3'), {text: 'Fun & Exciting'})
 	    	.set($('#slide02 h1'), {text: 'Activities'})
@@ -193,7 +193,7 @@
 	    var pinScene01 = new ScrollMagic.Scene({
 	        triggerElement: '#slide02', 
 	        triggerHook: 0,
-	        duration: "500%"
+	        duration: "550%"
 	    })
 	    .setPin("#slide02")
 	    .setTween(pinScene01Tl)
