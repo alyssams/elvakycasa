@@ -220,7 +220,7 @@ h4 {
     text-align: left;
     color: $lightest;
     .wrapper {
-        padding-top: 9rem;
+        padding-top: 7rem;
         z-index: 2;
         position: relative;
     }
@@ -907,6 +907,7 @@ p {
         position: relative;
         .wrapper {
             position: absolute;
+            padding-top: 9rem;
             top: 10%;
             left: 5%;
             width:80%;
