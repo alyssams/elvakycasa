@@ -174,7 +174,7 @@
 	    	.set($('#slide02 .bcg'), {css:{backgroundImage:'url(../img/bar.jpg)'}})
 	    	.set($('#slide02 h3'), {text: 'Let\'s do the'})
 	    	.set($('#slide02 h1'), {text: 'Two Step'})
-	    	.set($('#slide02 p'), {text: "Looking to dance or play some pool? Here are some fun nightlife spots to check out."})
+	    	.set($('#slide02 p'), {text: "Looking to dance or play some pool? Here are some fun nightlife spots to check out"})
 	    	.fromTo($('#slide02 h1'), 0.7, {y: '+=05'}, {y: 0, autoAlpha: 1, ease:Power1.easeOut}, '+=0.2')
 	    	.fromTo($('#slide02 section'), 0.6, {y: '+=05'}, {y: 0, autoAlpha: 1, ease:Power1.easeOut}, '-=0.6')
 	    	.set($('#slide02 h1'), {autoAlpha: 0}, '+=2')
@@ -185,7 +185,7 @@
 	    	.set($('#slide02 .bcg'), {css:{backgroundImage:'url(../img/beach.jpg)'}})
 	    	.set($('#slide02 h3'), {text: 'Fun & Exciting'})
 	    	.set($('#slide02 h1'), {text: 'Activities'})
-	    	.set($('#slide02 p'), {text: "Explore our sparkling city by the sea with some fun activities."})
+	    	.set($('#slide02 p'), {text: "Explore our sparkling city by the sea with some fun activities"})
 	    	.fromTo($('#slide02 h1'), 0.7, {y: '+=05'}, {y: 0, autoAlpha: 1, ease:Power1.easeOut}, '+=0.2')
 	    	.fromTo($('#slide02 section'), 0.6, {y: '+=05'}, {y: 0, autoAlpha: 1, ease:Power1.easeOut}, '-=0.6')
 	    	.set($('#slide02 h1'), {autoAlpha: 1}, '+=2');
