@@ -220,7 +220,7 @@ h4 {
     text-align: left;
     color: $lightest;
     .wrapper {
-        padding-top: 7rem;
+        padding-top: 3rem;
         z-index: 2;
         position: relative;
     }
@@ -343,7 +343,7 @@ nav {
 .scroll-hint {
     color: $lightest;
     position: absolute;
-    bottom: 1rem;
+    bottom: 0;
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 10px 40px;
@@ -809,12 +809,16 @@ p {
     }
 
     .subline {
-        font-size: 8em;
-        line-height:8rem;
+        font-size: 6em;
+        line-height:6rem;
         margin-top: 0;
         // font-family: 'kr-regular', Helvetica, Arial, sans-serif;
         font-family: 'Montserrat', sans-serif;
         font-weight: 700;
+    }
+
+    .scroll-hint {
+        bottom: 1rem;
     }
 
 
@@ -1106,12 +1110,14 @@ p {
         height: auto;
         //width: 100%;
     }
+
+    .subline {
+        font-size: 8rem;
+        line-height: 8rem;
+    }
 }
 
 @media only screen and (min-width: 1400px) {
-    .videoWrapper video {
-        width:100vw;
-    }
 
     .header-container .wrapper {
         top:10%;
@@ -1138,6 +1144,17 @@ p {
     }
     .slide#slide01 .wrapper {
         top:45%;
+    }
+
+    .subline {
+        font-size: 9rem;
+        line-height: 9rem;
+    }
+}
+
+@media only screen and (min-width: 1540px) {
+    .videoWrapper video {
+        width:100vw;
     }
 }
 
